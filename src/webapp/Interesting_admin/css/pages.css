@@ -1,0 +1,15 @@
+.li_nav_he{
+	list-style-type:none;
+	float: left;
+	margin: 5px;
+	line-height: 33px;
+}
+
+.pages{
+	position:relative;
+	left: -33px;
+}
+
+.page_input{
+	width: 20px;
+}

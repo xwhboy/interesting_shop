@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- service setting start -->
+    <bean id="userServiceImpl" class="com.service.impl.UserServiceImpl">
+        <property name="userDAO" ref="userDAOImpl" />
+    </bean>
+    <!-- service setting end -->
+
+    <!-- DAO setting start -->
+    <bean id="userDAOImpl" class="com.dao.impl.UserDAOImpl">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    <!-- DAO setting end -->
+
+    <!-- DAO setting start -->
+    <bean id="productDAOImpl" class="com.dao.impl.ProductDAOImpl">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    <!-- DAO setting end -->
+
+    <!-- service setting start -->
+    <bean id="productServiceImpl" class="com.service.impl.ProductServiceImpl">
+        <property name="productDAO" ref="productDAOImpl" />
+    </bean>
+    <!-- service setting end -->
+
+    <!-- DAO setting start -->
+    <bean id="proAttributeDAOImpl" class="com.dao.impl.ProAttributeDAOImpl">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    <!-- DAO setting end -->
+
+    <!-- service setting start -->
+    <bean id="proAttributeServiceImpl" class="com.service.impl.ProAttributeServiceImpl">
+        <property name="proAttributeDAO" ref="proAttributeDAOImpl" />
+    </bean>
+    <!-- service setting end -->
+
+    <!-- DAO setting start -->
+    <bean id="proAttributeValueDAOImpl" class="com.dao.impl.ProAttributeValueDAOImpl">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    <!-- DAO setting end -->
+
+    <!-- service setting start -->
+    <bean id="proAttributeValueServiceImpl" class="com.service.impl.ProAttributeValueServiceImpl">
+        <property name="proAttributeValueDAO" ref="proAttributeValueDAOImpl" />
+    </bean>
+    <!-- service setting end -->
+
+</beans>

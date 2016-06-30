@@ -1,0 +1,179 @@
+<!--A Design by W3layouts 
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Big shope A Ecommerce Category Flat Bootstarp Resposive Website Template | Login :: w3layouts</title>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<!--theme-style-->
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<!--//theme-style-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript">
+			addEventListener("load", function() {
+				setTimeout(hideURLbar, 0);
+			}, false);
+
+			function hideURLbar() {
+				window.scrollTo(0, 1);
+			}
+		</script>
+		<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!--//fonts-->
+		<script src="js/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<!--header-->
+		<div class="header">
+			<div class="top-header">
+				<div class="container">
+					<div class="top-header-left">
+						<ul class="support">
+							<li><a href="#"><label> </label></a></li>
+							<li><a href="#">24小时在线</a></li>
+						</ul>
+						<ul class="support">
+							<li class="van"><a href="#"><label> </label></a></li>
+							<li><a href="#">快速送达</a></li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="bottom-header">
+				<div class="container">
+					<div class="header-bottom-left">
+						<div class="logo">
+							<a href="index.html"><img src="images/logo.png" alt=" " /></a>
+						</div>
+						<div class="search">
+							<input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+							<input type="submit" class="search01" value="搜索">
+
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="header-bottom-right">
+						<div class="account"><a href="account.html"><span> </span>我的账户</a></div>
+						<ul class="login">
+							<li><a href="login.html"><span> </span>登录</a></li> |
+							<li><a href="register.html">注册</a></li>
+						</ul>
+						<div class="cart"><a href="cart.html"><span> </span>购物车</a></div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!---->
+		<div class="container">
+
+			<div class="account_grid" style="padding: 2em 0em 2em;">
+				<div class="order-top">
+					<div class="order-id">
+						<b>
+							订单号：1101110
+						</b>
+						<b class="order-time">
+							2016-06-11
+						</b>
+					</div>
+
+					<div class="pic-inf-attr2">
+						<div class="pic01">
+							<img src="images/product.jpg">
+						</div>
+						<div class="attr00">
+							<span class="informations">
+								<a href="single.html">赛睿（SteelSeries）</br>平民价格 竞赛品质 小手玩家适用 赛睿微动</a></span>
+							<div class="attributes00">
+								<ul class="list-inline">
+									<li>款式：<span class="badge">黑色</span></li>
+									<li>数量：<span class="badge">1</span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="attr02">
+							<span class="attributes">价格:<b>￥199</b></span>
+						</div>
+					</div>
+                    <div class="pic-inf-attr2">
+						<div class="pic01">
+							<img src="images/product.jpg">
+						</div>
+						<div class="attr00">
+							<span class="informations">
+								<a href="single.html">赛睿（SteelSeries）</br>平民价格 竞赛品质 小手玩家适用 赛睿微动</a></span>
+							<div class="attributes00">
+								<ul class="list-inline">
+									<li>款式：<span class="badge">黑色</span></li>
+									<li>数量：<span class="badge">1</span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="attr02">
+							<span class="attributes">价格:<b>￥199</b></span>
+						</div>
+					</div>
+					<div class="order-message">
+						留言：BIBIBIBIBIBI
+						<b class="order-time">
+								<div class="attr03">
+								总价   : <span class="total-money">￥199</span>
+								</div>
+							<b> 订单状态: </b>
+						<b class="order-money">已发货</b>
+						</b>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="sub-cate">
+				<div class=" top-nav rsidebar span_1_of_left">
+					<h3 class="cate">全部功能</h3>
+					<ul class="menu">
+						<ul class="kid-menu">
+							<li class="subitem1"><a href="account.html">我的订单</a></li>
+							<li class="subitem1"><a href="cart.html">我的购物车</a></li>
+							<li class="subitem1"><a href="collection.html">我的收藏</a></li>
+							<li class="subitem1"><a href="address.html">我的收货地址</a></li>
+						</ul>
+					</ul>
+				</div>
+				<!--initiate accordion-->
+				<script type="text/javascript">
+					$(function() {
+						var menu_ul = $('.menu > li > ul'),
+							menu_a = $('.menu > li > a');
+						menu_ul.hide();
+						menu_a.click(function(e) {
+							e.preventDefault();
+							if (!$(this).hasClass('active')) {
+								menu_a.removeClass('active');
+								menu_ul.filter(':visible').slideUp('normal');
+								$(this).addClass('active').next().stop(true, true).slideDown('normal');
+							} else {
+								$(this).removeClass('active');
+								$(this).next().stop(true, true).slideUp('normal');
+							}
+						});
+
+					});
+				</script>
+			</div>
+		</div>
+		<!---->
+	</body>
+
+</html>

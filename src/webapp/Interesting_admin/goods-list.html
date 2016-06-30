@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html lang="en" class="ie6 ielt7 ielt8 ielt9"><![endif]-->
+<!--[if IE 7 ]><html lang="en" class="ie7 ielt8 ielt9"><![endif]-->
+<!--[if IE 8 ]><html lang="en" class="ie8 ielt9"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+	<!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<title>Interesting商城商品列表</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="css/site.css" rel="stylesheet">
+		<link href="css/page/goods-list.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container">
+						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="#">Interesting  商城管理系统</a>
+						<div class="nav-collapse">
+
+							<ul class="nav pull-right">
+								<li>
+									<a href="#" id="login-user"><b>@username</b></a>
+								</li>
+								<li>
+									<a href="index.html">Logout</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span3">
+					<div class="well" style="padding: 8px 0;">
+						<ul class="nav nav-list">
+							<li class="nav-header">
+								商品管理
+							</li>
+							<li class="active">
+								<a href="goods-list.html"><i class="icon-list-alt"></i> 商品列表</a>
+							</li>
+							<li>
+								<a href="goods-add.html"><i class="icon-plus"></i> 增加商品</a>
+							</li>
+							<li>
+								<a href="goods-list-add.html"><i class=" icon-folder-open"></i> 库存管理</a>
+							</li>
+							<li class="nav-header">
+								商品分类管理
+							</li>
+
+							<li>
+								<a href="goodsclassify-list.html"><i class="icon-tag"></i> 商品分类管理</a>
+							</li>
+							<li class="nav-header">
+								订单管理
+							</li>
+							<li>
+								<a href="menu-list.html"><i class="icon-file"></i> 订单列表</a>
+							</li>
+							<li class="nav-header">
+								用户管理
+							</li>
+							<li>
+								<a href="users-list.html"><i class="icon-list-alt"></i>用户列表</a>
+							</li>
+							<li>
+								<a href="users-add.html"><i class="icon-plus"></i>增加用户</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="span9" style="min-width:768px">
+					<h1>
+						商品列表
+					</h1>
+					<form class="form-inline">
+						<input type="text" class="form-control" placeholder="请输入商品名称" id="search">
+						<button type="submit" class="btn">查询</button>
+					</form>
+
+					<table class="table table-bordered table-responsive table-hover">
+						<thead style="min-width: 1200px">
+							<tr>
+								<th width="20%" class="tableleft">
+									商品名称
+								</th>
+								<th>
+									原价
+								</th>
+								<th>
+									现价
+								</th>
+								<th>
+									库存
+								</th>
+								<th width="10%">
+									类别
+								</th>
+								<th width="15%">
+									备注
+								</th>
+								<th width="32%">
+									<div align="baseline">
+										选项
+										<div>
+								</th>
+
+							</tr>
+						</thead>
+						<tbody id="table_content">
+
+						</tbody>
+					</table>
+					<div class="pages">
+						<ul class="pag">
+							<li class="li_nav_he"><button type="button" class="btn btn-default" id="pre_page">上一页</button></li>
+							<li class="li_nav_he"><button type="button" class="btn btn-default" id="next_page">下一页</button></li>
+							<li class="li_nav_he"><p id="li_pt" class="li_pt">共页</p></li>
+							<li class="li_nav_he"><p id="li_pc" class="li_pc">当前第页</p></li>
+							<li class="li_nav_he"><button type="button" class="btn btn-default" id="jump_to">跳转至</button></li>
+							<li class="li_nav_he" style="margin-left:0px;"><input class="page_input" type="text"/></li>
+							<li class="li_nav_he"><button type="button" class="btn btn-default" id="back_to_first">回首页</button></li>
+						</ul>
+					</div>
+					</div>
+
+				</div>
+
+				</div>
+
+				<script src="js/jquery.min.js"></script>
+				<script src="js/bootstrap.min.js"></script>
+				<script src="js/site.js"></script>
+				<script src="js/page/good-list.js"></script>
+	</body>
+
+</html>

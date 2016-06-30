@@ -1,0 +1,42 @@
+.detailed-address{
+	margin-left: 0;
+}
+.phone-num{
+	margin-left: 34px;
+}
+.add-modify{
+	display: none;
+	width: 50px;
+	color: #aaa;
+}
+#add-modify{
+	display: block;
+}
+.product-type{
+	height: 50px;
+	width: 100px;
+	border: 1px solid #ddd;
+}
+#confirm1,#confirm2{
+	margin-top: 15px;
+}
+#use-new-add{
+	margin-left: 16px;
+}
+#manage-add{
+	margin-right: -18px;
+}
+.icon{
+	background-image: url("../images/ui-icons_444444_256x240.png");
+    width: 18px;
+    line-height: 18px;
+    display: inline-block;
+}
+.add-close{
+	float: right;
+	display: none;
+	margin: 7px 5px 0 0;
+	background-position: -96px -128px; 
+	height: 20px;
+	width: 20px;
+}

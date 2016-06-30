@@ -1,0 +1,943 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nav",
+				"nav_mid"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"i",
+				"img	img"
+			],
+			[
+				"titl",
+				"title"
+			],
+			[
+				"t",
+				"title	<title>"
+			],
+			[
+				"cha",
+				"charset"
+			],
+			[
+				"l",
+				"location〔variable〕"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mag",
+				"margin-left"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"st",
+				"list-style-image"
+			],
+			[
+				"magin",
+				"margin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pan",
+				"padding"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ce",
+				"cellspacing	Attr"
+			],
+			[
+				"border-r",
+				"border-right: 〔property〕"
+			],
+			[
+				"ali",
+				"align"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"so",
+				"solid〔value〕"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"input",
+				"inputd	input - date"
+			],
+			[
+				"scr",
+				"script"
+			],
+			[
+				"d",
+				"documentElement〔variable〕"
+			],
+			[
+				"off",
+				"offset	.offset()"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"bs3",
+				"bs3-form	bs3-form"
+			],
+			[
+				"bsnav",
+				"bs3-navbar:static-top	bs3-navbar-static-top"
+			],
+			[
+				"bs3-",
+				"bs3-navbar	bs3-navbar"
+			],
+			[
+				"bs3-navb",
+				"bs3-navbar:brand	bs3-navbar-brand"
+			],
+			[
+				"bs3na",
+				"bs3-navbar:form	bs3-navbar-form"
+			],
+			[
+				"scri",
+				"script	Tag"
+			],
+			[
+				"co",
+				"container"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"ht",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"re",
+				"ready	jQuery(document).ready"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "login.html",
+			"settings":
+			{
+				"buffer_size": 5451,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/qq707/Desktop/html/index.html",
+			"settings":
+			{
+				"buffer_size": 24164,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "product.html",
+			"settings":
+			{
+				"buffer_size": 9860,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "register.html",
+			"settings":
+			{
+				"buffer_size": 5807,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "single.html",
+			"settings":
+			{
+				"buffer_size": 8797,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 18523,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 27454,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contact.html",
+			"settings":
+			{
+				"buffer_size": 6278,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 263.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ssja",
+				"Set Syntax: Java"
+			],
+			[
+				"ssjsp",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"ss",
+				"Set Syntax: HTML"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"pic",
+				"Package Control: Install Package"
+			],
+			[
+				"sbs3-na",
+				"Snippet: bs3-navbar"
+			],
+			[
+				"comma",
+				"Snippet: <command>"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"snippetjq",
+				"Snippet: jQuery.each"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ssjs",
+				"Snippet: jQuery.browser.version"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pli",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/fileRecv/muban/新建文件夹/html",
+		"/E/fileRecv/muban/新建文件夹/html/css"
+	],
+	"file_history":
+	[
+		"/C/Users/qq707/Desktop/html/single.html",
+		"/C/Users/qq707/Desktop/html/register.html",
+		"/C/Users/qq707/Desktop/html/product.html",
+		"/C/Users/qq707/Desktop/html/contact.html",
+		"/C/Users/qq707/Desktop/html/index.html",
+		"/C/Users/qq707/Desktop/html/login.html",
+		"/E/fileRecv/muban/新建文件夹/html/index.html",
+		"/E/fileRecv/muban/新建文件夹/html/contact.html",
+		"/E/fileRecv/muban/新建文件夹/html/product.html",
+		"/E/fileRecv/muban/新建文件夹/html/login.html",
+		"/E/fileRecv/muban/新建文件夹/html/register.html",
+		"/E/fileRecv/muban/新建文件夹/html/single.html",
+		"/E/fileRecv/muban/新建文件夹/html/index.sublime-project",
+		"/E/fileRecv/muban/新建文件夹/html/css/style.css",
+		"/C/Users/qq707/Desktop/muban/html/index.html",
+		"/E/fileRecv/muban/新建文件夹/html/images/ba.jpg",
+		"/E/fileRecv/muban/新建文件夹/html/css/form.css",
+		"/E/fileRecv/muban/新建文件夹/html/images/a-star.png",
+		"/E/fileRecv/LoadRunner截图/1.jpg",
+		"/C/Users/qq707/Desktop/企业网站/index.html",
+		"/C/Users/qq707/Desktop/企业网站/css/style.css",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/qq707/Downloads/企业网站综合练习/css/main.css",
+		"/C/Users/qq707/Desktop/企业网站/images/ad4.jpg",
+		"/C/Users/qq707/Desktop/企业网站/images/ad3.jpg",
+		"/C/Users/qq707/Desktop/企业网站/images/li_bg2.gif",
+		"/E/html+css+js/waterfall/index.html",
+		"/E/html+css+js/html/04.html",
+		"/E/html+css+js/waterfall/js/script.js",
+		"/E/html+css+js/waterfall/js",
+		"/E/html+css+js/waterfall/css/style.css",
+		"/E/html+css+js/waterfall/css/reset.css",
+		"/D/eclipse/eclipse.ini",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/html+css+js/jQuery/hello.html",
+		"/E/WebstormProject/.idea/workspace.xml",
+		"/C/Users/qq707/Desktop/bootstrap-3.3.5-dist/js/bootstrap.js",
+		"/D/eclipse/configuration/config.ini",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/E/html+css+js/jQuery/js/bootstrap.min.js",
+		"/E/html+css+js/jQuery/css/bootstrap.min.css",
+		"/E/html+css+js/jQuery/css/bootstrap.css",
+		"/C/Users/qq707/Desktop/bootstrap-3.3.5-dist/css/bootstrap.css",
+		"/E/html+css+js/jQuery/css/style.css",
+		"/E/html+css+js/jQuery/js/jquery-2.2.0.js",
+		"/E/html+css+js/jQuery/js",
+		"/E/html+css+js/jQuery/hello.js",
+		"/E/python/cgi/bin/main.py",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/jQuery/README.md",
+		"/E/html+css+js/jQuery/jquery.min.js",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/IMESupport/imesupport_hook_x64.dll.package-control-old",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/IMESupport/IMESupport.sublime-settings",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/IMESupport/.no-sublime-package",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/IMESupport/README_en.org",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/IMESupport/README.org",
+		"/D/迅雷下载/jquery-2.1.4/jquery.min.js",
+		"/C/Users/qq707/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"E:\\fileRecv\\muban\\新建文件夹\\html"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Lorem ipsum dolor",
+			"400$",
+			"300$",
+			"FLAT 50% 0FF",
+			"GET NOW",
+			"NOW",
+			"￥300",
+			"$",
+			"ADD TO CART",
+			"$",
+			"Rs",
+			"300",
+			"Rs.",
+			"ADD TO CART",
+			"cart",
+			"CART",
+			"img-arrow",
+			"sub-",
+			"top-nav rsidebar span_1_of_left",
+			"arrow-img",
+			">\n",
+			"加入购物车",
+			"<!---->\n",
+			"#",
+			"全部商品分类",
+			"CATEGORIES",
+			"categories",
+			"CATEG",
+			"arrow",
+			"<img class=\"arrow-img\" src=\"images/arrow1.png\" alt=\"\"/> ",
+			"img",
+			" </",
+			"Kittens",
+			"Cute",
+			"=\"",
+			"menu",
+			"href",
+			"=\"#\">",
+			"href",
+			"=\"#\">",
+			"menu",
+			"class",
+			"键盘",
+			"search",
+			"top-header",
+			"input",
+			"equiv",
+			"http",
+			"pass",
+			"text",
+			"ccf",
+			"ccc",
+			"red",
+			"value",
+			"密码：",
+			"col",
+			"400",
+			"col_2",
+			"col_1",
+			"=\"\"></",
+			"col",
+			".tb tr td span{\n		width: 80px;\n	}",
+			";\n",
+			"()",
+			"Eighties",
+			"	\"",
+			"Document",
+			"theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"加入购物车",
+			"￥"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5451,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										2478,
+										2481
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								5267,
+								5267
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"file": "images/arrow2.png",
+					"semi_transient": true,
+					"stack_index": 8,
+					"type": "image"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/qq707/Desktop/html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24164,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										5742,
+										5743
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7640.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "product.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9743,
+								9743
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4998.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "register.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5767,
+								5767
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2870.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "single.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5675,
+								5675
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2471.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18523,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										2587,
+										2590
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								6224,
+								6224
+							],
+							[
+								7856,
+								7856
+							],
+							[
+								9503,
+								9503
+							],
+							[
+								11425,
+								11425
+							],
+							[
+								13061,
+								13061
+							],
+							[
+								14709,
+								14709
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6443.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3890,
+								3890
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4389.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2502,
+								2502
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 166.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

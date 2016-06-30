@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html lang="en" class="ie6 ielt7 ielt8 ielt9"><![endif]-->
+<!--[if IE 7 ]><html lang="en" class="ie7 ielt8 ielt9"><![endif]-->
+<!--[if IE 8 ]><html lang="en" class="ie8 ielt9"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+	<!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<title>Interesting商城增加商品</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="css/site.css" rel="stylesheet">
+		<link href="css/bootstrap-dialog.css" rel="stylesheet">
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container">
+						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="#">Interesting  商城管理系统</a>
+						<div class="nav-collapse">
+
+							<ul class="nav pull-right">
+								<li>
+									<a href="#" id="login-user"><b>@username</b></a>
+								</li>
+								<li>
+									<a href="index.html">Logout</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span3">
+					<div class="well" style="padding: 8px 0;">
+						<ul class="nav nav-list">
+							<li class="nav-header">
+								商品管理
+							</li>
+							<li>
+								<a href="goods-list.html"><i class="icon-list-alt"></i> 商品列表</a>
+							</li>
+							<li class="active">
+								<a href="goods-add.html"><i class="icon-plus"></i> 增加商品</a>
+							</li>
+							<li>
+								<a href="goods-list-add.html"><i class=" icon-folder-open"></i> 库存管理</a>
+							</li>
+							<li class="nav-header">
+								商品分类管理
+							</li>
+
+							<li>
+								<a href="goodsclassify-list.html"><i class="icon-tag"></i> 商品分类管理</a>
+							</li>
+							<li class="nav-header">
+								订单管理
+							</li>
+							<li>
+								<a href="menu-list.html"><i class="icon-file"></i> 订单列表</a>
+							</li>
+							<li class="nav-header">
+								用户管理
+							</li>
+							<li>
+								<a href="users-list.html"><i class="icon-list-alt"></i>用户列表</a>
+							</li>
+							<li>
+								<a href="users-add.html"><i class="icon-plus"></i>增加用户</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="span9">
+					<h1>
+						增加商品
+					</h1>
+
+					<table class="table table-bordered table-hover m10">
+						<tr>
+							<td width="20%" class="tableleft">商品</td>
+							<td><input type="text" value="" name="name" id="goods_name" /></td>
+						</tr>
+
+						<tr>
+							<td width="20%" class="tableleft">商品分类</td>
+							<td><select name="ct_updown" id='ct_updown'>
+								<!--<option value='0'>分类1</option>
+								<option value='1'>分类2</option>-->
+							</td>
+						</tr>
+
+						<tr>
+							<td width="20%" class="tableleft">商品价格</td>
+							<td><input type="text" value="" name="price" id="price"/></td>
+						</tr>
+
+						<tr>
+							<td width="20%" class="tableleft">商品真实价格</td>
+							<td><input type="text" value="" name="raw-price" id="real_price"/></td>
+						</tr>
+
+						<tr>
+							<td width="20%" class="tableleft">商品是否上架</td>
+							<td><select name="updown">
+								<option value='0'>上架</option>
+								<option value='1'>不上架</option>
+							</td>
+					</tr>
+				   
+				     <tr>
+					<td width="20%" class="tableleft" >商品可选择的属性1</td>
+                    <td><input type="text" value="" placeholder="属性1" name="att1" id="att1"/>&nbsp;&nbsp;<input type="text" value="" name="att1-con" id='att1_val' placeholder="属性字段"/></td>
+                   </tr>
+				   
+				   <tr>
+					<td width="20%" class="tableleft" >商品可选择的属性2</td>
+                    <td><input type="text" value="" placeholder="属性2" name="att2" id="att2"/>&nbsp;&nbsp;<input type="text" value="" name="att2-con" id='att2_val' placeholder="属性字段"/></td>
+                   </tr>
+				   
+				   <tr>
+					<td width="20%" class="tableleft" >商品描述</td>
+                    <td><textarea class="form-control" rows="3" name="instrument" id="instrument"></textarea></td>  
+                   </tr>
+				   
+				   <tr>
+					<td width="20%" class="tableleft" >商品图片</td>
+                    <td>
+					<!--<label class="control-label" for="fileInput">文件</label>
+					<input class="input-file" id="fileInput" type="file" accept="image/*" multiple="multiple"/>
+					<button   id="btn-up">上传</button>-->
+					<form enctype="multipart/form-data" method="post" name="fileinfo">
+						<label class="control-label" for="fileInput">文件</label>
+						<input class="input-file" id="fileInput" type="file" accept="image/*" multiple="multiple" name = "out_files"/>
+						<button   id="btn-up">上传</button>
+					</form>
+					</td>  
+                  </tr>
+					<tr>
+					<td class="tableleft"></td>
+					<td>
+					<button  class="btn btn-primary" type="button" id="btn-save">保存</button> &nbsp;&nbsp;<button type="button" class="btn btn-success" name="back" id="back">返回列表</button>
+					</td>
+					</tr>
+				</table>
+				</div>
+				
+				
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/site.js"></script>
+		<script src="js/bootstrap-dialog.js"></script>
+		<script src="js/page/goods-add.js"></script>
+	</body>
+</html>

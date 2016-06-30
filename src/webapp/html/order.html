@@ -1,0 +1,174 @@
+<!--A Design by W3layouts 
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Big shope A Ecommerce Category Flat Bootstarp Resposive Website Template | Home :: w3layouts</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<link href="css/mystyle.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/jquery-ui.min.css" rel="stylesheet"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<!--script-->
+</head>
+<body> 
+	<!--header-->
+	<div class="header">
+		<div class="top-header">
+			<div class="container">
+				<div class="top-header-left">
+					<ul class="support">
+						<li><a href="#"><label> </label></a></li>
+						<li><a href="#">24小时在线</a></li>
+					</ul>
+					<ul class="support">
+						<li class="van"><a href="#"><label> </label></a></li>
+						<li><a href="#">快速送达</a></li>
+					</ul>
+					<div class="clearfix"> </div>	
+				</div>
+				<div class="clearfix"> </div>		
+			</div>
+		</div>
+		<div class="bottom-header">
+			<div class="container">
+				<div class="header-bottom-left">
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.png" alt=" " /></a>
+					</div>
+					<div class="search">
+						<input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+						<input type="submit"  class="search01" value="搜索">
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="header-bottom-right">					
+						<div class="account"><a href="account.html"><span> </span>我的账户</a></div>
+							<ul class="login">
+								<li><a href="login.html"><span> </span>登录</a></li> |
+								<li ><a href="register.html">注册</a></li>
+							</ul>
+						<div class="cart"><a href="cart.html"><span> </span>购物车</a></div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>	
+			</div>
+		</div>
+	</div>
+	<!----> 
+	<div class="container">
+		<h5><b>&nbsp;&nbsp;&nbsp;&nbsp;选择收货地址</b></h5>
+		<div class="addresses">
+			<div class="address1" id="">
+				<div class="main-add">
+					<span class="add1"></span>
+					<span class="add1-name"></span>
+					<div class="icon add-close">
+					</div>
+				</div>
+				<div class="detailed-add">
+					<span class="add2" ></span><span class="phone-num"></span></br>
+				</div>
+				<span class="add-modify" id="add-modify">修改</span>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="display-add">
+			<button type="button" class="btn btn-default" id="use-new-add">使用新地址</button>
+		</div>
+		
+		<div class="modify-add">
+			<button type="button" class="btn btn-default" id="manage-add">管理收货地址</button>
+		</div>
+	</div>
+	<div class="container">
+		<h5><b>&nbsp;&nbsp;&nbsp;&nbsp;确认订单信息</b></h5>
+		<div class="order-inf">
+			<div class="pic-inf-attr">
+				<div class="pic01">
+					<img src="images/product.jpg">
+				</div>
+				<div class="attr01">
+					<span class="informations"><a href="single.html">赛睿（SteelSeries）</br>平民价格 竞赛品质 小手玩家适用 赛睿微动</a></span>
+					<span class="attributes">颜色:粉红色</span>
+				</div>
+			</div>
+			<div class="price-num-total">
+				<ul>
+					<li>￥199.00</li>
+					<li>1</li>
+					<li>199.00</li>
+				</ul>
+			</div>
+			<div class="shipping">
+			   	<span>普通配送</span>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="Confirm-order">
+			<div class="Modify">
+				<span class="modify01"><a href="#">确认订单</a></span>
+			</div>
+			<div class="confirm">
+				<span class="confirm01"><a href="cart.html">返回购物车修改</a></span>
+
+			</div>
+		</div>
+	</div>
+	<div id="dialog" class="dialog" title="修改收货地址">
+		<form action="order_submit" method="get" accept-charset="utf-8">
+			<div class="form-group">
+			    <label for="exampleInputEmail1">收货人姓名</label>
+			    <input type="text" class="form-control" id="" placeholder="name">
+			</div>
+			<div class="form-group">
+			    <label for="exampleInputEmail1">联系电话</label>
+			    <input type="text" class="form-control" id="" placeholder="phone">
+			</div>
+			<div class="form-group">
+			    <label for="exampleInputEmail1">所在省市</label>
+			    <input type="text" class="form-control" id="" placeholder="city">
+			</div>
+			<div class="form-group">
+			    <label for="exampleInputEmail1">具体地址</label>
+			    <input type="text" class="form-control" id="" placeholder="address">
+			</div>
+		</form>
+	</div>
+	<div id="dialog-new" class="dialog-new" title="填写新地址">
+		<form action="order_submit" method="get" accept-charset="utf-8">
+			<div class="form-group">
+			    <label for="exampleInputEmail1">收货人姓名</label>
+			    <input type="text" class="form-control" id="user-name" placeholder="name">
+			</div>
+			<div class="form-group">
+			    <label for="exampleInputEmail1">联系电话</label>
+			    <input type="text" class="form-control" id="user-phone" placeholder="phone">
+			</div>
+			<div class="form-group">
+			    <label for="exampleInputEmail1">所在省市</label>
+			    <input type="text" class="form-control" id="user-city" placeholder="city">
+			</div>
+			<div class="form-group">
+			    <label for="exampleInputEmail1">具体地址</label>
+			    <input type="text" class="form-control" id="user-add" placeholder="address">
+			</div>
+		</form>
+	</div>
+	
+</body>
+<script src="js/page/order.js"></script>
+
+</html>
